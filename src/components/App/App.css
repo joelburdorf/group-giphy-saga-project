@@ -152,3 +152,8 @@ img {
         max-width: 52em;
     }
 }
+@media screen and (min-width: 25em) {
+    .gif {
+       max-width: calc(90% -  1em);
+    }
+}
