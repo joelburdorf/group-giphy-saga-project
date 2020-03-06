@@ -15,6 +15,8 @@ class Cartoon extends Component {
 
   deleteFav = remove => {
     this.props.dispatch({ type: "REMOVE_FAV", payload: remove });
+    console.log('hi');
+    
   };
 
   editFav = edit => {
